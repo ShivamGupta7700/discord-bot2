@@ -5,7 +5,7 @@ import os
 # ===========================
 # BOT CONFIG
 # ===========================
-TOKEN = "MTQxMDU3MTM0MjMyMzEyNjMyMg.GXqPKB._4Zvmb9k_Nl0he8NqGcSWpNQHfTjg2OxTQ2dCs"
+TOKEN = "MTQxMDU3MTM0MjMyMzEyNjMyMg.Gb0pIP.iQjGmCqIKOruo5kGbBCl7nzfs7FsE_etbMtYHg"
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -101,3 +101,4 @@ async def top_attackers(interaction: discord.Interaction):
 # RUN BOT
 # ===========================
 bot.run(TOKEN)
+
