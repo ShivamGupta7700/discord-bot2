@@ -1,0 +1,5 @@
+discord.py>=2.3.2
+aiohttp>=3.8.4
+python-dotenv>=1.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0  # optional: install if you want ML training
