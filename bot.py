@@ -1,7 +1,7 @@
 import discord 
 from discord.ext import commands
 import os
-
+from dotenv import load_dotenv
 # ===========================
 # BOT CONFIG
 # ===========================
@@ -99,6 +99,11 @@ async def top_attackers(interaction: discord.Interaction):
 # ===========================
 # RUN BOT
 # ===========================
+
+load_dotenv()
+
+TOKEN = os.getenv("TOKEN")
 bot.run(TOKEN)
+
 
 
